@@ -1,7 +1,7 @@
 function isAlphanumeric(str) {
     return str.length === 1 && str.match(/[a-z0-9]/gi);
   }
-  function palindrome(str) {
+function palindrome(str) {
     for (let i = 0; i < str.length; i++) {
       if (!isAlphanumeric(str[i])) {
         str = str.replace(str[i], "");
